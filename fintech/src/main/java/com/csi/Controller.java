@@ -11,4 +11,12 @@ public class Controller {
     public String companyName(){
        return "Fintech Credit Systems India Pvt. Ltd.";
     }
+
+
+
+    @GetMapping ("/address")
+    public String companyAddress(){
+        return "Pune";
+    }
+
 }
